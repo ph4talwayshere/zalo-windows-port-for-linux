@@ -43,3 +43,5 @@ Pull request, issue, hoặc chia sẻ kinh nghiệm thêm đều được hoan n
 ![notification](Untitled34_20260127221657.png)
 
 ![receive call](Untitled34_20260127221653.png)
+
+![send call](Untitled34_20260127221649.png)
