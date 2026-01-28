@@ -10,11 +10,13 @@ Mục tiêu: chứng minh có thể **nhắn tin + gọi thoại (mic)** trên L
 - Fast startup
 - Mic hoạt động trong call
 - Nhận/gửi call ổn định
+- Paste / Copy đã hoạt động (28/1/2026)
 
 ## ❌ Vấn đề còn tồn tại
-- Paste (clipboard) chưa hoạt động
 - Camera chưa bật được trong call
 - Ngốn tài nguyên (CrRendererMain)
+- Black screen trên GNOME
+- Gửi file từ host sang Zalo
 
 ## 🛠️ Môi trường thử nghiệm
 - Ubuntu LTS 24.04 (HP ProBook 4540s)
