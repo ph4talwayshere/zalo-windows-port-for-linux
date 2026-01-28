@@ -27,7 +27,7 @@ Mục tiêu: chứng minh có thể **nhắn tin + gọi thoại (mic)** trên L
    - Kiểm tra camera ảo: /ls /dev/video*
 3. Cài Bottles trên Linux.
 4. Tạo runner (Caffe runner).
-5. Cài thêm allfont, unifont, vcredist2019, dotnet48 trong Details >> Dependencies
+5. Cài thêm allfont, unifont, vcredist2019 (optional), dotnet48, ffdshow trong Details >> Dependencies
 6. Chạy `ZaloSetup.exe`
 7. Login nhưng phần QR hơi ức chế vì nó dễ failed. Nên kiên trì
 
