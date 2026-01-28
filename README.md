@@ -38,3 +38,6 @@ Mục tiêu: chứng minh có thể **nhắn tin + gọi thoại (mic)** trên L
 
 ## 🤝 Đóng góp
 Pull request, issue, hoặc chia sẻ kinh nghiệm thêm đều được hoan nghênh.
+
+- Một vài preview -
+![notification](Untitled34_20260127221657.png)
