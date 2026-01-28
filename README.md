@@ -11,12 +11,12 @@ Mục tiêu: chứng minh có thể **nhắn tin + gọi thoại (mic)** trên L
 - Mic hoạt động trong call
 - Nhận/gửi call ổn định
 - Paste / Copy đã hoạt động (28/1/2026)
+- Gửi file hoạt động
 
 ## ❌ Vấn đề còn tồn tại
 - Camera chưa bật được trong call
 - Ngốn tài nguyên (CrRendererMain)
 - Black screen trên GNOME
-- Gửi file từ host sang Zalo
 
 ## 🛠️ Môi trường thử nghiệm
 - Ubuntu LTS 24.04 (HP ProBook 4540s)
@@ -31,7 +31,10 @@ Mục tiêu: chứng minh có thể **nhắn tin + gọi thoại (mic)** trên L
 4. Tạo runner (Caffe runner).
 5. Cài thêm allfont, unifont, vcredist2019 (optional), dotnet48, ffdshow trong Details >> Dependencies
 6. Chạy `ZaloSetup.exe`
-7. Login nhưng phần QR hơi ức chế vì nó dễ failed. Nên kiên trì
+7. Thêm flag "--disable-gpu --disable-software-rasterizer --disable-gpu-composting --disable-features=VizDisplayCompositor" trong Change launch option >> Arguments để giảm thằng CrRenderMain ăn ram
+8.  Cho bottles access hệ thống bằng cách Settings >> Manage Drives
+      - Nếu không có: add thủ công bằng cách vào bottle của bạn >> Legacy Wine Tools >>  Configuration >> Drives >> Add >> chọn ổ Z cho dễ >> OK >> vào Settings trong Bottles >> Manage Drives >> chọn ổ Z >> Choose A Driectory >> Chọn /home/<user của bạn> >> Select
+9. Tải và Login nhưng phần QR hơi ức chế vì nó dễ failed. Nên kiên trì 
 
 ## ⚠️ Lưu ý
 - Đây là bản thử nghiệm, không chính thức.
