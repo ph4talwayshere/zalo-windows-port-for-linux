@@ -17,7 +17,8 @@ Mục tiêu: chứng minh có thể **nhắn tin + gọi thoại (mic)** trên L
 - Camera chưa bật được trong call
 - Ngốn tài nguyên (CrRendererMain)
 - Black screen trên GNOME
-
+- IBus không hoạt động
+  
 ## 🛠️ Môi trường thử nghiệm
 - Ubuntu LTS 24.04 (HP ProBook 4540s)
 
